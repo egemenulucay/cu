@@ -3,3 +3,8 @@ C:\GitHub\cusigorta\cusigorta\bin\cusigorta.pdb
 C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.csprojResolveAssemblyReference.cache
 C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.dll
 C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.pdb
+C:\Users\ali\Documents\GitHub\cu\cusigorta\cusigorta\bin\cusigorta.dll
+C:\Users\ali\Documents\GitHub\cu\cusigorta\cusigorta\bin\cusigorta.pdb
+C:\Users\ali\Documents\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.csprojResolveAssemblyReference.cache
+C:\Users\ali\Documents\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.dll
+C:\Users\ali\Documents\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.pdb

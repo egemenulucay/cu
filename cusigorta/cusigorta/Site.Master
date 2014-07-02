@@ -71,9 +71,9 @@
         
         </asp:ContentPlaceHolder>
     </div>
-    </form>
+   
 <!--footer start-->
-    <footer  style="height:90px; background-color:lightgray;">
+   <%-- <footer  style="height:90px; background-color:lightgray;">
         <div class="container">
             <div class="row" style="text-align:center;margin:0 auto;">
                 
@@ -91,7 +91,78 @@
         
             </div>
         </div>
-    </footer>
+    </footer>--%>
+            <footer id="footer" style="background-color:#475268; color:white;"><hr />
+				<%--<div class="container">
+					<div class="row"><br />						
+						<div class="col-md-3">
+							<div class="newsletter">
+								<h4>Bülten</h4>
+								<p>Bizimle birlikte Sigorta ve Sigortacılık dünyasını takip etmek için lütfen E-posta adresinizle bültenimize Abone Olun.</p>
+
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Abone Oldun!</strong> Artık sende bizim e-posta listemizde yer alıyorsun.
+								</div>
+
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+
+								<div id="newsletterForm" >
+									<div class="input-group">
+										<input class="form-control" style="height:34px;" placeholder="Email Adresiniz" name="email" id="txtInsertEmail" runat="server" type="text"/>
+										<span class="input-group-btn">											
+                                            <asp:Button ID="btnEmailSave" CssClass="btn btn-default" Width="55" Height="34" runat="server" Text="İleri"/>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<h4>Sıkça Sorulan Sorular</h4>
+                            <p>-Sigorta Nedir ?</p>
+                            <p>-Neden Sigorta Yaptırmalıyım ?</p>
+                            <p>-Sigortanın Bana Faydası Nedir ?</p>
+                            <p>-Neden Kasko Yaptırmalıyım ?</p>
+                          
+							</div>
+						<div class="col-md-4">
+							<div class="contact-details">
+								<h4>Bize Ulaşın</h4>
+								<ul class="contact">
+									<p><i class="fa fa-location-arrow"></i> <strong>Adres:</strong> Sümer-1 Sokak No: 7/7 Kızılay,Ankara</p>
+									<p><i class="fa fa-phone"></i> <strong>Tel:</strong> (312) 232-2243</p>
+                                    <p><i class="fa fa-phone-square"></i> <strong>Tel:</strong> (312) 232-2283</p>
+									<p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a style="color:white;" href="mailto:info@cusigorta.com">info@cusigorta.com</a></p>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Bizi Takip Edin</h4>
+							<div class="social-icons">
+								<ul class="social-icons">
+									<li class="fa fa-facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook"></a></li>
+									<li class="fa  fa-twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter"></a></li>
+									<li class="fa fa-linkedin-square"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>--%>
+				<div class="footer-copyright" style="margin-left:300px; text-align:center;">
+					<div class="container">
+						<div class="row" >
+							<div class="col-md-1">
+								<a href="http://www.teknobilsoft.com" class="logo">
+									<img alt="" class="img-responsive" src="img/logoTekno.png"/>
+								</a>
+							</div>
+							<div class="col-md-7">
+								<p>©TeknoBilSoft Copyright 2014. Her hakkı saklıdır.</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>		
     <!--footer end-->
 
     <!-- js placed at the end of the document so the pages load faster -->
@@ -148,8 +219,7 @@
       jQuery(".fancybox").fancybox();
 
 
-
   </script>
-
+ </form>
   </body>
 </html>
