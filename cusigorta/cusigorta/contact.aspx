@@ -51,26 +51,29 @@
             </div>
             <div class="col-lg-7 col-sm-7 address">
                 <h4>Mesaj Gönder</h4>
+                <div class="alert alert-danger" style="text-align:center;" id="warningMess" runat="server"></div>
+                <div class="alert alert-success" style="text-align:center;" id="successMess" runat="server"></div>
                 <div class="contact-form">
-                    <form role="form">
+                    <div role="form">
                         <div class="form-group">
                             <label for="name">İsminiz</label>
-                            <input type="text" placeholder="" id="name" class="form-control">
+                            <input type="text" placeholder="" id="name" runat="server" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" placeholder="" id="email" class="form-control">
+                            <input type="email" placeholder="" id="email" runat="server" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="phone">Telefon</label>
-                            <input type="text" id="phone" class="form-control">
+                            <input type="text" id="phone" runat="server" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="phone">Mesajınız</label>
-                            <textarea placeholder="" rows="5" class="form-control"></textarea>
+                            <textarea placeholder="" rows="5" id="message" runat="server" class="form-control"></textarea>
                         </div>
-                        <button class="btn btn-primary" type="submit">Gönder</button>
-                    </form>
+                        <asp:Button ID="btnSendMessage" CssClass="btn btn-primary" runat="server" Text="Gönder" OnClick="btnSendMessage_Click" />
+                        <%--<button class="btn btn-primary" type="submit">Gönder</button>--%>
+                    </div>
 
                 </div>
             </div>

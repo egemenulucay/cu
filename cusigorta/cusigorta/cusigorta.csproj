@@ -279,7 +279,7 @@
     </Compile>
     <Compile Include="Library\Database.cs" />
     <Compile Include="Library\InformationSMS.cs" />
-    <Compile Include="Library\SendMail.cs" />
+    <Compile Include="Library\MailSend.cs" />
     <Compile Include="Library\UI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
