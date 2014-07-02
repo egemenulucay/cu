@@ -150,11 +150,11 @@
 				<div class="footer-copyright" style="margin-left:300px; text-align:center;">
 					<div class="container">
 						<div class="row" >
-							<div class="col-md-1">
+						<%--	<div class="col-md-1">
 								<a href="http://www.teknobilsoft.com" class="logo">
 									<img alt="" class="img-responsive" src="img/logoTekno.png"/>
 								</a>
-							</div>
+							</div>--%>
 							<div class="col-md-7">
 								<p>©TeknoBilSoft Copyright 2014. Her hakkı saklıdır.</p>
 							</div>

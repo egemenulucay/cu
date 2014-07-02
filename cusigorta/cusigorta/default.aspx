@@ -22,7 +22,7 @@
                           data-speed="400"
                           data-start="1000"
                           data-easing="easeOutExpo">
-                         Clean & Creative
+                         30 yıllık tecrübe
                      </div>
 
                      <div class="caption lfr slide_subtitle dark-text"
@@ -31,7 +31,7 @@
                           data-speed="400"
                           data-start="2000"
                           data-easing="easeOutExpo">
-                         A Responsive Frontend Template
+                         değerlerinizi koruyoruz..
                      </div>
                      <div class="caption lfr slide_desc"
                           data-x="670"
@@ -39,9 +39,7 @@
                           data-speed="400"
                           data-start="2500"
                           data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
+                         Dünden bugüne 30 yılı aşkın bir süredir
                      </div>
                      <a class="caption lfr btn yellow slide_btn" href="http://thevectorlab.net/flatlab" target="_blank"
                         data-x="670"
@@ -64,7 +62,7 @@
                           data-speed="400"
                           data-start="1500"
                           data-easing="easeOutExpo">
-                         YAHOOOOO. TWO IN ONE
+                         önce sağlığınız
                      </div>
                      <div class="caption lft slide_subtitle dark-text"
                           data-x="10"
@@ -72,7 +70,7 @@
                           data-speed="400"
                           data-start="2000"
                           data-easing="easeOutExpo">
-                         Admin & Fronend in a single bundle
+                         sağlığınızı hemen bugün güvence altına alın
                      </div>
                      <div class="caption lft slide_desc dark-text"
                           data-x="10"
@@ -80,17 +78,15 @@
                           data-speed="400"
                           data-start="2500"
                           data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
+                         Tam kapsamlı ayakta ve yatarak tedavi paketlerini içeren sağlık sigortası.
                      </div>
-                     <a class="caption lft slide_btn btn red slide_item_left" href="#" target="_blank"
+                     <a class="caption lft slide_btn btn red slide_item_left" href="contact.aspx" target="_blank"
                         data-x="10"
                         data-y="360"
                         data-speed="400"
                         data-start="3000"
                         data-easing="easeOutExpo">
-                         Purchase Now
+                         Detaylı Bilgi
                      </a>
                      <div class="caption lft start"
                           data-x="640"
@@ -104,7 +100,7 @@
                           data-x="330"
                           data-y="20"
                           data-speed="500"
-                          data-start="5000"
+                          data-start="2000"
                           data-easing="easeOutBack">
                          <img src="img/banner/test_man.png" id="rev-hint2" alt="txt img">
                      </div>
@@ -138,22 +134,22 @@
                           data-easing="easeOutBack">
                          <img src="img/banner/mobile.png" alt="Image 1">
                      </div>
-                     <div class="caption lfl slide_item_right"
+                    <%-- <div class="caption lfl slide_item_right"
                           data-x="250"
                           data-y="230"
                           data-speed="1200"
                           data-start="3000"
                           data-easing="easeOutBack">
                          <img src="img/banner/laptop.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfl slide_item_right"
+                     </div>--%>
+                  <%--   <div class="caption lfl slide_item_right"
                           data-x="165"
                           data-y="30"
                           data-speed="500"
                           data-start="5000"
                           data-easing="easeOutBack">
                          <img src="img/banner/text_imac.png" id="rev-hint1" alt="Image 1">
-                     </div>
+                     </div>--%>
 
                      <div class="caption lfr slide_title slide_item_left yellow-txt"
                           data-x="670"
@@ -161,7 +157,7 @@
                           data-speed="400"
                           data-start="3500"
                           data-easing="easeOutExpo">
-                         Full Responsive
+                         tam güvenceyle
                      </div>
                      <div class="caption lfr slide_subtitle slide_item_left"
                           data-x="670"
@@ -169,7 +165,7 @@
                           data-speed="400"
                           data-start="4000"
                           data-easing="easeOutExpo">
-                         And Awesome Flat Design
+                         İçiniz rahat
                      </div>
                      <div class="caption lfr slide_desc slide_item_left"
                           data-x="670"
@@ -177,9 +173,7 @@
                           data-speed="400"
                           data-start="4500"
                           data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
+                         Siz günün akışına odaklanmışken işyeri , ev , araba ve özel eşyalarınız <br />bizim güvencemiz altında..
                      </div>
 
 
@@ -247,7 +241,7 @@
 
 
     <!--property start-->
-    <div class="property gray-bg">
+    <%--<div class="property gray-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 text-center">
@@ -260,7 +254,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
     <!--property end-->
 
      <div class="container">
@@ -396,7 +390,7 @@
         </div>
 
         <!--recent work start-->
-        <div class="row">
+        <%--<div class="row">
             <div class="col-lg-12">
                 <h2 class="r-work">Recent Work</h2>
                 <ul class="bxslider">
@@ -506,7 +500,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>--%>
         <!--recent work end-->
 
     </div>
