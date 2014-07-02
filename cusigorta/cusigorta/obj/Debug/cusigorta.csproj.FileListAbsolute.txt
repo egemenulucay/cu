@@ -1,0 +1,5 @@
+C:\GitHub\cusigorta\cusigorta\bin\cusigorta.dll
+C:\GitHub\cusigorta\cusigorta\bin\cusigorta.pdb
+C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.csprojResolveAssemblyReference.cache
+C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.dll
+C:\GitHub\cusigorta\cusigorta\obj\Debug\cusigorta.pdb
