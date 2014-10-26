@@ -30,6 +30,12 @@
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/style-responsive.css" rel="stylesheet" />
 
+      <style>
+          #culogo {
+          zoom:0.9;
+          }
+      </style>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -50,14 +56,17 @@
                         <span class="fa fa-bar"></span>
                         <span class="fa fa-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="default.aspx" style="font:bold;color:darkblue;">C.U<span style="font:bold;">Sigorta</span></a>
+                    <a class="navbar-brand" href="default.aspx" "><asp:Image runat="server" ID="culogo" ImageUrl="/img/culogo.png" /></a>
+                    
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" style="margin-right:40px;padding-top:20px;">
                         <li class="active"><a href="default.aspx">Anasayfa</a></li>
-                        <li><a href="about.html">Hakkımızda</a></li>
-                        <li><a href="services.html">Kurumsal</a></li>                        
-                        <li><a href="portfolio.html">Portföy</a></li>                     
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Kurumsal</a></li>                        
+                        <li><a href="#">Portföy</a></li>
+                         <li><a href="#">Hizmetlerimiz</a></li>  
+                         <li><a href="#">Online Poliçe Hesapla</a></li>                   
                         <li><a href="contact.aspx">İletişim</a></li>                       
                         <li><input type="text" placeholder=" Arama " class="form-control search"/></li>
                     </ul>
@@ -67,6 +76,7 @@
     </header>
     <!--header end-->
     <div>
+        <br />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -93,11 +103,11 @@
         </div>
     </footer>--%>
             <footer id="footer" style="background-color:#475268; color:white;"><hr />
-				<%--<div class="container">
+				<div class="container">
 					<div class="row"><br />						
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="newsletter">
-								<h4>Bülten</h4>
+								<h4 style="color:darkorange">Bülten</h4>
 								<p>Bizimle birlikte Sigorta ve Sigortacılık dünyasını takip etmek için lütfen E-posta adresinizle bültenimize Abone Olun.</p>
 
 								<div class="alert alert-success hidden" id="newsletterSuccess">
@@ -116,26 +126,26 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<h4>Sıkça Sorulan Sorular</h4>
-                            <p>-Sigorta Nedir ?</p>
-                            <p>-Neden Sigorta Yaptırmalıyım ?</p>
-                            <p>-Sigortanın Bana Faydası Nedir ?</p>
-                            <p>-Neden Kasko Yaptırmalıyım ?</p>
+						<div class="col-md-4" style="padding-left:60px;">
+							<h4 style="color:darkorange">Sıkça Sorulan Sorular</h4>
+                           <p><a href="#" style="color:white;">-Sigorta Nedir ?</a></p>
+                           <p><a href="#" style="color:white;">-Neden Sigorta Yaptırmalıyım ?</a></p>
+                           <p><a href="#" style="color:white;">-Sigortanın Bana Faydası Nedir ?</a></p>
+                           <p><a href="#" style="color:white;">-Neden Kasko Yaptırmalıyım ?</a></p>
                           
 							</div>
 						<div class="col-md-4">
 							<div class="contact-details">
-								<h4>Bize Ulaşın</h4>
+								<h4 style="color:darkorange">Bize Ulaşın</h4>
 								<ul class="contact">
-									<p><i class="fa fa-location-arrow"></i> <strong>Adres:</strong> Sümer-1 Sokak No: 7/7 Kızılay,Ankara</p>
+									<p><i class="fa fa-location-arrow"></i> <strong>Adres:</strong> Sümer-1 Sokak No: 7/7 Kızılay/Ankara</p>
 									<p><i class="fa fa-phone"></i> <strong>Tel:</strong> (312) 232-2243</p>
-                                    <p><i class="fa fa-phone-square"></i> <strong>Tel:</strong> (312) 232-2283</p>
+                                    <p><i class="fa fa-phone-square"></i> <strong>Tel:</strong> (532) 456-3179</p>
 									<p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a style="color:white;" href="mailto:info@cusigorta.com">info@cusigorta.com</a></p>
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<%--<div class="col-md-2">
 							<h4>Bizi Takip Edin</h4>
 							<div class="social-icons">
 								<ul class="social-icons">
@@ -144,24 +154,20 @@
 									<li class="fa fa-linkedin-square"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin"></a></li>
 								</ul>
 							</div>
-						</div>
+						</div>--%>
 					</div>
-				</div>--%>
-				<div class="footer-copyright" style="margin-left:300px; text-align:center;">
-					<div class="container">
-						<div class="row" >
-						<%--	<div class="col-md-1">
-								<a href="http://www.teknobilsoft.com" class="logo">
-									<img alt="" class="img-responsive" src="img/logoTekno.png"/>
-								</a>
-							</div>--%>
-							<div class="col-md-7">
-								<p>©TeknoBilSoft Copyright 2014. Her hakkı saklıdır.</p>
+				</div>
+                <br />
+                <br />
+				<div class="footer-copyright" style="height:40px; text-align:center;background-color:black;">
+					
+							<div  style=" text-align:center;background-color:black;padding-top:9px;">
+								<p>©<a href="http://www.teknobilsoft.com" target="_blank" style="color:darkorange">TeknobilSoft</a> Copyright 2014. Her hakkı saklıdır.</p>
 							</div>
 							
 						</div>
-					</div>
-				</div>
+				
+			
 			</footer>		
     <!--footer end-->
 

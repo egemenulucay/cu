@@ -13,3 +13,9 @@ C:\GitHub\cu\cusigorta\cusigorta\bin\cusigorta.pdb
 C:\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.csprojResolveAssemblyReference.cache
 C:\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.dll
 C:\GitHub\cu\cusigorta\cusigorta\obj\Debug\cusigorta.pdb
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\bin\cusigorta.dll.config
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\bin\cusigorta.dll
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\bin\cusigorta.pdb
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\obj\Debug\cusigorta.dll
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\obj\Debug\cusigorta.pdb
+C:\GitHub\C.U Sigorta\cusigorta\cusigorta\obj\Debug\cusigorta.csprojResolveAssemblyReference.cache

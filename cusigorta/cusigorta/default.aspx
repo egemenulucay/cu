@@ -5,16 +5,16 @@
     <!-- revolution slider start -->
      <div class="fullwidthbanner-container main-slider">
          <div class="fullwidthabnner">
-             <ul id="revolutionul" style="display:none;">
-                 <!-- 1st slide -->
-                 <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                     <div class="caption lfl slide_item_left"
-                          data-x="10"
-                          data-y="70"
+             <ul id="revolutionul" style="">
+                <%-- <!-- 1st slide -->
+                 <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="" >
+                     <div class="caption lfl slide_item_left" 
+                          data-x="70"
+                          data-y="130"
                           data-speed="400"
                           data-start="1500"
                           data-easing="easeOutBack">
-                         <img src="img/banner/ban2.png" alt="Image 1">
+                         <img src="img/cuphoto.png" alt="Image 1">
                      </div>
                      <div class="caption lfr slide_title"
                           data-x="670"
@@ -22,7 +22,7 @@
                           data-speed="400"
                           data-start="1000"
                           data-easing="easeOutExpo">
-                         30 yıllık tecrübe
+                         30 yıllık tecrübe..
                      </div>
 
                      <div class="caption lfr slide_subtitle dark-text"
@@ -31,7 +31,7 @@
                           data-speed="400"
                           data-start="2000"
                           data-easing="easeOutExpo">
-                         değerlerinizi koruyoruz..
+                         Dünden bugüne..
                      </div>
                      <div class="caption lfr slide_desc"
                           data-x="670"
@@ -39,18 +39,18 @@
                           data-speed="400"
                           data-start="2500"
                           data-easing="easeOutExpo">
-                         Dünden bugüne 30 yılı aşkın bir süredir
+                         değerlerinizi koruyoruz..
                      </div>
-                     <a class="caption lfr btn yellow slide_btn" href="http://thevectorlab.net/flatlab" target="_blank"
+                     <a class="caption lfr btn yellow slide_btn" href="contact.aspx" 
                         data-x="670"
                         data-y="400"
                         data-speed="400"
                         data-start="3500"
                         data-easing="easeOutExpo">
-                         Watch Dashboard
+                         Detaylı Bilgi
                      </a>
 
-                 </li>
+                 </li>--%>
 
                  <!-- 2nd slide  -->
                  <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
@@ -86,7 +86,7 @@
                         data-speed="400"
                         data-start="3000"
                         data-easing="easeOutExpo">
-                         Detaylı Bilgi
+                         Detaylı Bİlgİ
                      </a>
                      <div class="caption lft start"
                           data-x="640"
@@ -190,34 +190,34 @@
         <div class="row">
             <!--feature start-->
             <div class="text-center feature-head">
-                <h1>welcome to flatlab</h1>
-                <p>Professional html Template Perfect for Admin Dashboard</p>
+                <h1>C.U Sİgorta'ya Hoşgeldİnİz!</h1>
+                <p>Profesyonel ekibimizle hizmetinizdeyiz..</p>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box">
-                        <i class=" fa fa-desktop"></i>
-                        <h2>responsive design</h2>
+                        <i class=" fa fa-smile-o"></i>
+                        <h2>Müşterİ Memnunİyetİ</h2>
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+                    <p class="f-text">Müşteri memnuniyeti herşeyin öncesinde ilkesinde, hizmet ve çalışmalarımızı sürdürmekteyiz.</p>
                 </section>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box active">
-                        <i class=" fa fa-code"></i>
-                        <h2>friendly code</h2>
+                        <i class=" fa fa-check"></i>
+                        <h2>Tam GÜvence</h2>
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+                    <p class="f-text">Gözünüz arkada kalmasın, değerleriniz değerimizdir.</p>
                 </section>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box">
-                        <i class="fa fa-gears"></i>
-                        <h2>fully customizable</h2>
+                        <i class="fa fa-turkish-lira"></i>
+                        <h2>En İyİ Fİyat Garantİsİ</h2>
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+                    <p class="f-text">Farklı şirketlerden size uygun en iyi fiyatı ve ödeme seçeneklerini sunmaktayız.</p>
                 </section>
             </div>
             <!--feature end-->
@@ -227,12 +227,12 @@
             <div class="quote">
                 <div class="col-lg-9 col-sm-9">
                     <div class="quote-info">
-                        <h1>developer friendly code</h1>
-                        <p>Bundled with awesome features, UI resource unlimited colors, advanced theme options & much more!</p>
+                        <h1>bİlİyor muydunuz?</h1>
+                        <p>2000 yılında kurulan Doğal Afet Sigortaları Kurumu’dan (DASK) sonra deprem poliçeleri zorunlu hale getirilmiştir.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-3">
-                    <a href="#" class="btn btn-danger purchase-btn">Purchase now</a>
+                    <a href="contact.aspx" class="btn btn-danger purchase-btn">Hemen Polİçenlendİr</a>
                 </div>
             </div>
             <!--quote end-->
@@ -260,24 +260,24 @@
      <div class="container">
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <!--tab start-->
                 <section class="panel tab">
                     <header class="panel-heading tab-bg-dark-navy-blue">
                         <ul class="nav nav-tabs nav-justified ">
                             <li class="active">
                                 <a data-toggle="tab" href="#news">
-                                    News
+                                    Haberler
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#events">
-                                    Events
+                                    Duyurular
                                 </a>
                             </li>
                             <li class="">
                                 <a data-toggle="tab" href="#notice-board">
-                                    Notice board
+                                    Kampanyalar
                                 </a>
                             </li>
                         </ul>
@@ -287,29 +287,29 @@
                             <div id="news" class="tab-pane active">
                                 <article class="media">
                                     <a class="pull-left thumb p-thumb">
-                                        <img src="img/product1.jpg" alt="">
+                                        <img src="img/haber1.jpg" alt="">
                                     </a>
                                     <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="#" class=" p-head">İlk 6 ayda sigortalı doğal afet hasarı 22 milyar $</a>
+                                        <p>2013 yılının ilk yarısında doğal afetlerden kaynaklı 20 milyar dolarlık sigortalı hasar meydana gelmişti. 2014 yılının ilk yarısında ise doğal afetler 22 milyar dolarlık sigortalı hasara neden oldu. </p>
                                     </div>
                                 </article>
                                 <article class="media">
                                     <a class="pull-left thumb p-thumb">
-                                        <img src="img/product2.png" alt="">
+                                        <img src="img/haber2.jpg" alt="">
                                     </a>
-                                    <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here 2</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. simsut dorlor</p>
+                                     <div class="media-body">
+                                        <a href="#" class=" p-head">Sigortacılığın iyileşmesi için tüm sektör el ele vermeli</a>
+                                        <p>Sigorta Acenteleri Derneği (SAB) Başkanı Doğan Şen, III. Ulusal Sigorta Sempozyumu hakkında yorumlarda bulundu. </p>
                                     </div>
                                 </article>
                                 <article class="media">
                                     <a class="pull-left thumb p-thumb">
-                                        <img src="img/product1.jpg" alt="">
+                                        <img src="img/haber3.jpg" alt="">
                                     </a>
                                     <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here 3</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sumon ahmed</p>
+                                        <a href="#" class=" p-head">Zurich’ten İngiltere’ye önemli atama</a>
+                                        <p>İsviçre’nin en büyük sigortacısı Zurich, Vibhu Sharma’yı Birleşik Krallık operasyonlarının başına getirdi.</p>
                                     </div>
                                 </article>
                             </div>
@@ -319,8 +319,8 @@
                                         <!--image goes here-->
                                     </a>
                                     <div class="media-body">
-                                        <a href="#" class="cmt-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                                        <p> <i class="fa fa-clock-o"></i> 1 hours ago</p>
+                                        <a href="#" class="cmt-head">Duyuru içeriği</a>
+                                        <p> <i class="fa fa-clock-o"></i> 1 saat önce</p>
                                     </div>
                                 </article>
                                 <article class="media">
@@ -328,30 +328,30 @@
                                         <!--image goes here-->
                                     </a>
                                     <div class="media-body">
-                                        <a href="#" class="cmt-head">Nulla vel metus scelerisque ante sollicitudin commodo</a>
-                                        <p> <i class="fa fa-clock-o"></i> 23 mins ago</p>
+                                        <a href="#" class="cmt-head">Duyuru içeriği</a>
+                                        <p> <i class="fa fa-clock-o"></i> 23 dakika önce</p>
                                     </div>
                                 </article>
                                 <article class="media">
                                     <a class="pull-left thumb p-thumb">
                                         <!--image goes here-->
                                     </a>
-                                    <div class="media-body">
-                                        <a href="#" class="cmt-head">Donec lacinia congue felis in faucibus. </a>
-                                        <p> <i class="fa fa-clock-o"></i> 15 mins ago</p>
+                                   <div class="media-body">
+                                        <a href="#" class="cmt-head">Duyuru içeriği</a>
+                                        <p> <i class="fa fa-clock-o"></i> 15 dakika önce</p>
                                     </div>
                                 </article>
                             </div>
                             <div id="notice-board" class="tab-pane ">
-                                <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                                <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+                                <p>•Kampanya içeriği 1</p>
+                               <p>•Kampanya içeriği 2</p>
                             </div>
                         </div>
                     </div>
                 </section>
                 <!--tab end-->
             </div>
-            <div class="col-lg-6">
+         <%--   <div class="col-lg-6">
                 <!--testimonial start-->
                 <div class="about-testimonial boxed-style about-flexslider ">
                     <section class="slider">
@@ -386,7 +386,7 @@
                     </section>
                 </div>
                 <!--testimonial end-->
-            </div>
+            </div>--%>
         </div>
 
         <!--recent work start-->
@@ -522,12 +522,13 @@
                  <div class="row">
                      <div class="col-lg-12 text-center">
                          <ul class="list-unstyled">
-                             <li><a href="#"><img src="img/clients/logo1.jpg" alt=""/></a></li>
-                             <li><a href="#"><img src="img/clients/logo2.jpg" alt=""/></a></li>
+                             <li><a href="#"><img src="img/clients/gunessigorta.png" style="zoom:0.7;" alt=""/></a></li>
+                             <li><a href="#"><img src="img/clients/logo1.jpg" alt="" style="zoom:0.7;" /> </a></li>
+                             <li><a href="#"><img src="img/clients/logo2.jpg" style="zoom:1.2;" alt=""/></a></li>
                              
                              <li><a href="#"><img src="img/clients/logo4.jpg" alt=""/></a></li>
-                             <li><a href="#"><img src="img/clients/logo3.png" alt=""/></a></li>
-                             <li><a href="#"><img src="img/clients/logo5.jpg" alt=""/></a></li>
+                            
+                             <li><a href="#"><img src="img/clients/mapfre3.jpg" style="zoom:0.4;" alt=""/></a></li>
                          </ul>
                      </div>
                  </div>

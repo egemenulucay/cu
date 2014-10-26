@@ -35,7 +35,7 @@
                 <p>
                     Sümer-1 sokak 7/7 <br/>
                     Kızılay <br/>
-                    Çankaya
+                    Çankaya / Ankara
                 </p>
                 <br/>
                 <br/>
@@ -43,6 +43,8 @@
                 <p>
                     <b>Telefon : </b>
                     <span class="muted">(312) 232-2243</span><br/>
+                    <b>Cep : </b>
+                    <span class="muted">(532) 456-3179</span><br/>
                    <b> Fax :</b>
                     <span class="muted">(312) 232-2283</span><br/>
                    <b> Email : </b>
